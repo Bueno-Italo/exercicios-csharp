@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Net.Mail;
 
 namespace myfirst.dotnetcore3._1
 {
@@ -7,11 +6,11 @@ namespace myfirst.dotnetcore3._1
     {
         static void Main(string[] args)
         {
-            ProcessarIdade();
+            ProcessarSalario();
             Console.ReadKey();
         }
 
-        public static void ProcessarIdade() 
+        public static void ProcessarIdade()
         {
             int idade;
 
@@ -29,6 +28,40 @@ namespace myfirst.dotnetcore3._1
                 Console.WriteLine("Permissão Concedida");
             }
         }
+
+        public static void ProcessarSalario()
+        {
+            decimal salarioAtual;
+            Console.WriteLine("informe seu salário: ");
+            decimal.TryParse(Console.ReadLine(), out salarioAtual);
+            
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Seu salario atual é: {salarioAtual}");
+            
+            Console.ResetColor();
+            Console.WriteLine("Estamos calculando seu salário... ");
+            
+            var novoSalario = CalcularSalario(salarioAtual);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"Seu novo salario atual é : {novoSalario}");
+        }
+
+        public static decimal CalcularSalario(decimal salarioAtual) 
+        {
+            decimal novoSalario;
+            if(salarioAtual < 1700) 
+            {
+                novoSalario = salarioAtual + 300;
+            }
+            else
+            {
+                novoSalario = salarioAtual + 200;
+
+            }
+
+            return novoSalario;
+        }
+
 
     }
 }
