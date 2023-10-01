@@ -1,0 +1,14 @@
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\bin\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.exe
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\bin\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.deps.json
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\bin\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.runtimeconfig.json
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\bin\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.runtimeconfig.dev.json
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\bin\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.dll
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\bin\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.pdb
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\obj\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.csproj.AssemblyReference.cache
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\obj\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\obj\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.AssemblyInfoInputs.cache
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\obj\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.AssemblyInfo.cs
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\obj\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.csproj.CoreCompileInputs.cache
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\obj\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.dll
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\obj\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.pdb
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst.dotnetcore3.1\obj\Debug\netcoreapp3.1\myfirst.dotnetcore3.1.genruntimeconfig.cache

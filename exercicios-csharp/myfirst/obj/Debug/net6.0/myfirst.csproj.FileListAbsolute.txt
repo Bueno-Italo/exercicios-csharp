@@ -1,0 +1,15 @@
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\bin\Debug\net6.0\myfirst.exe
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\bin\Debug\net6.0\myfirst.deps.json
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\bin\Debug\net6.0\myfirst.runtimeconfig.json
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\bin\Debug\net6.0\myfirst.dll
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\bin\Debug\net6.0\myfirst.pdb
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\myfirst.csproj.AssemblyReference.cache
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\myfirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\myfirst.AssemblyInfoInputs.cache
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\myfirst.AssemblyInfo.cs
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\myfirst.csproj.CoreCompileInputs.cache
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\myfirst.dll
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\refint\myfirst.dll
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\myfirst.pdb
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\myfirst.genruntimeconfig.cache
+C:\Bueno-Italo Github\exercicios-csharp\exercicios-csharp\myfirst\obj\Debug\net6.0\ref\myfirst.dll

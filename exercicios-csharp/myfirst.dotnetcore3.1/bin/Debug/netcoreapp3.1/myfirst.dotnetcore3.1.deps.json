@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "myfirst.dotnetcore3.1/1.0.0": {
+        "runtime": {
+          "myfirst.dotnetcore3.1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "myfirst.dotnetcore3.1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
