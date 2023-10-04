@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ay/v5k3VAUTJK3n3vMsyn21vU4RzyAuYKGeakyD+Yr/HqH1aceq5rQzNbab1vX0D/bPNierGFgRL++Xv2QwTMg==",
+  "dgSpecHash": "EMETM4MDYEPJY72e+7BVNAwICUCBJFReXUUNSzzYp2nnORFMsNYiThKwkeFKCFaU6dG7g4QPbgRiGAHvf/d7Xg==",
   "success": true,
-  "projectFilePath": "C:\\Bueno-Italo Github\\exercicios-csharp\\exercicios-csharp\\myfirst\\myfirst.csproj",
+  "projectFilePath": "C:\\Repositórios\\Bueno-Italo Github\\exercicios-csharp\\exercicios-csharp\\myfirst\\myfirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\italo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
     "C:\\Users\\italo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
