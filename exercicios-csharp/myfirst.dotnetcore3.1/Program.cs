@@ -66,17 +66,14 @@ namespace myfirst.dotnetcore3._1
             string nomePessoa;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Informe seu Nome: ");
-            nomePessoa = Console.WriteLine();
-            Console.WriteLine("O nome escrito foi: + {nomePessoa}");
-            Console.Readkey();
-
-            string Sobrenome;
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Informe sua idade: ");
-            
             Console.ReadLine();
 
-            Console.WriteLine(" string + {decimal}");
+            decimal idade;
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Informe sua idade: ");
+            Console.ReadLine();
+
+            Console.WriteLine
             
             
          
