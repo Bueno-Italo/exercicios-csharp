@@ -73,7 +73,7 @@ namespace myfirst.dotnetcore3._1
             Console.WriteLine("Informe sua idade: ");
             Console.ReadLine();
 
-            Console.WriteLine
+            Console.WriteLine();
             
             
          
