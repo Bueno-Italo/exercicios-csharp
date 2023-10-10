@@ -62,21 +62,21 @@ namespace myfirst.dotnetcore3._1
             return novoSalario;
         }
         public static void Escrevanome()
+
         {
             string nomePessoa;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Informe seu Nome: ");
             Console.ReadLine();
 
-            decimal idade;
+            string sobreNome;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Informe sua idade: ");
+            Console.WriteLine("Informe seu sobrenome: ");
             Console.ReadLine();
 
-            Console.WriteLine();
             
-            
-         
+
+
         }
 
 
