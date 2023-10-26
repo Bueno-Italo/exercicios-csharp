@@ -67,12 +67,17 @@ namespace myfirst.dotnetcore3._1
             string nomePessoa;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Informe seu Nome: ");
-            Console.ReadLine();
+            nomePessoa=Console.ReadLine();
 
             string sobreNome;
-            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Informe seu sobrenome: ");
-            Console.ReadLine();
+            sobreNome=Console.ReadLine();
+
+            string textoConcatenado = nomePessoa + " " + sobreNome;
+            Console.Write($"nome e sobrenome é:  {textoConcatenado}");
+
+
+
 
             
 
