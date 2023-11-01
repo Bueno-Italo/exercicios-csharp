@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
+using System.Xml.Schema;
 
 namespace myfirst.dotnetcore3._1
 {
@@ -6,7 +9,7 @@ namespace myfirst.dotnetcore3._1
     {
         static void Main(string[] args)
         {
-            Escrevanome();
+            ExibirIdade();
             Console.ReadKey();
         }
 
@@ -74,16 +77,34 @@ namespace myfirst.dotnetcore3._1
             sobreNome=Console.ReadLine();
 
             string textoConcatenado = nomePessoa + " " + sobreNome;
-            Console.Write($"nome e sobrenome é:  {textoConcatenado}");
+            Console.Write($"nome e sobrenome é:  {textoConcatenado}");      
+        }
 
+        public static void  ExibirIdade()
 
-
-
+        {
+            int Ano;
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Informe o ano de nascimento: ");
+            Ano = Convert.ToInt32(Console.ReadLine());
             
+            
+            string Nome;
+            Console.WriteLine(" Informe o seu nome: ");
+            Nome = Console.ReadLine();
+
+            string TextoConcatenado = Ano + " " + Nome;
+            Console.Write(TextoConcatenado);
+
+
+
+
+
+
+
 
 
         }
-
 
     }
 }
