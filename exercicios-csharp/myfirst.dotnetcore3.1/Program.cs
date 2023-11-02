@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography;
-using System.Xml.Schema;
 
 namespace myfirst.dotnetcore3._1
 {
@@ -81,39 +78,36 @@ namespace myfirst.dotnetcore3._1
         }
 
         public static void CalculoIdadePessoa()
-
-
-
         {
-            decimal dia;
+            string dia;
             Console.WriteLine("Informe o dia do seu nascimento: ");
+            dia = Console.ReadLine();
 
-
-
-            int mes;
+            string mes;
             Console.WriteLine("Informe o mes do seu nascimento: ");
-            
+            mes = Console.ReadLine();
 
-
+            Console.WriteLine("Informe o do seu nascimento: ");
             int ano_nascimento = Int32.Parse(Console.ReadLine());
-            Console.Write("Informe o ano atual: ");
-            
 
+            Console.WriteLine("Informe o ano do atual: ");
             int ano_atual = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Informe o ano do seu nascimento: ");
-            ano_nascimento += Int32.Parse(Console.ReadLine());
 
-            int idade_anos = ano_atual - ano_nascimento;
-            Console.WriteLine("\nA idade em anos é: " + idade_anos);
+            Console.ForegroundColor = ConsoleColor.Green;
+            var resultado = CalculoIdade(ano_atual, ano_nascimento);
+            Console.WriteLine("\nA idade em anos é: " + resultado);
 
-
-            
-            
-
-             
         }
 
-        
+        public static int CalculoIdade(int anoAtual, int anoNascimento)
+        {
+            var idade = 0;
+
+            idade = anoAtual - anoNascimento;
+
+            return idade;
+        }
+
 
     }
 }
