@@ -6,7 +6,7 @@ namespace myfirst.dotnetcore3._1
     {
         static void Main(string[] args)
         {
-            Exercicios();
+            EntradadeDados();
             Console.ReadKey();
         }
 
@@ -120,10 +120,43 @@ namespace myfirst.dotnetcore3._1
             double preco2 = 650.50;
             double medida = 53.234567;
 
+            double a = 1.0, b = -3.0, c = -4.0;
+
+            double delta = b * b - 4.0 * a * c;
+
+            double x1 = (-b + Math.Sqrt(delta)) / (2.0 * a);
+
+            Console.WriteLine(delta);
+            Console.WriteLine(x1);
+
             Console.WriteLine("Produtos: " + produto1 + ", cujo o preço é: $ " + preco1);
             Console.WriteLine(produto2 + ", cujo preco é: $" + preco2);
 
             Console.WriteLine("Registro: " + idade + " anos de idade, " + "código " + codigo + " e genero: " + genero);
+        }
+
+        public static void EntradadeDados()
+        {
+            string frase = Console.ReadLine();
+            string x = Console.ReadLine();
+            string y = Console.ReadLine();
+            string z = Console.ReadLine();
+
+            string s = Console.ReadLine();
+
+            string[] v = s.Split(' ');
+            string a = v[0];
+            string b = v[1];
+            string c = v[2];
+
+            Console.WriteLine("voce digitou: ");
+            Console.WriteLine(frase);
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+            Console.WriteLine(a);
+            Console.WriteLine(b);   
+            Console.WriteLine(c);   
         }
 
     }
