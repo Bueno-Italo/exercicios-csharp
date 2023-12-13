@@ -6,7 +6,7 @@ namespace myfirst.dotnetcore3._1
     {
         static void Main(string[] args)
         {
-            EntradadeDados();
+            EstruturaCondicional();
             Console.ReadKey();
         }
 
@@ -108,7 +108,7 @@ namespace myfirst.dotnetcore3._1
             return idade;
         }
 
-        public static  void Exercicios()
+        public static void Exercicios()
         {
             string produto1 = "Computador";
             string produto2 = "Mesa de Escritório";
@@ -141,7 +141,6 @@ namespace myfirst.dotnetcore3._1
             string x = Console.ReadLine();
             string y = Console.ReadLine();
             string z = Console.ReadLine();
-
             string s = Console.ReadLine();
 
             string[] v = s.Split(' ');
@@ -155,8 +154,53 @@ namespace myfirst.dotnetcore3._1
             Console.WriteLine(y);
             Console.WriteLine(z);
             Console.WriteLine(a);
-            Console.WriteLine(b);   
-            Console.WriteLine(c);   
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+        }
+
+        public static void ExerciciodeFixacao()
+
+        {
+            Console.WriteLine("Escreva um valor: ");
+            Console.ReadLine();
+            int valor1 = 10;
+            Console.WriteLine("Escreva outro valor: ");
+            Console.ReadLine();
+            int valor2 = 30;
+
+            Console.WriteLine("A soma dos valores são: ");
+            int soma = valor1 + valor2;
+            Console.WriteLine(soma);
+
+        }
+
+
+        public static void ExerciciodeFixacao2()
+
+        {
+            Console.WriteLine("Entre com o seu nome completo: ");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine("Quantos quartos tem na sua cada? ");
+            int preco1 = int.Parse( Console.ReadLine());
+
+            Console.WriteLine("Entre com o preço de um produto: ");
+            double preco = double.Parse(Console.ReadLine());
+        }
+
+        public static void EstruturaCondicional()
+        {
+            Console.WriteLine("Entre com um numero inteiro: ");
+            int x = int.Parse(Console.ReadLine());
+
+            if (x % 2 == 0)
+            {
+                Console.WriteLine("Par!");
+            }
+            else
+            {
+                Console.WriteLine("Impar!");
+            }
         }
 
     }
