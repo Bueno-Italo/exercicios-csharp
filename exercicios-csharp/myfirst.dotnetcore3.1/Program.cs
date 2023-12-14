@@ -6,7 +6,7 @@ namespace myfirst.dotnetcore3._1
     {
         static void Main(string[] args)
         {
-            EstruturaCondicional();
+            EstruturaCondicionalIf();
             Console.ReadKey();
         }
 
@@ -188,7 +188,7 @@ namespace myfirst.dotnetcore3._1
             double preco = double.Parse(Console.ReadLine());
         }
 
-        public static void EstruturaCondicional()
+        public static void EstruturaCondicionalIf()
         {
             Console.WriteLine("Entre com um numero inteiro: ");
             int x = int.Parse(Console.ReadLine());
@@ -201,6 +201,49 @@ namespace myfirst.dotnetcore3._1
             {
                 Console.WriteLine("Impar!");
             }
+
+            Console.WriteLine("Qual a hora atual?");
+            int hora = int.Parse(Console.ReadLine());
+
+            if (hora <12)
+            {
+                Console.WriteLine("Bom Dia!");
+            }
+            else if (hora < 18)
+            {
+                Console.WriteLine("Boa Tarde!");
+            }
+            else
+            {
+                Console.WriteLine("Boa Noite!");
+            }
+
+            Console.WriteLine("Digite três números:");
+            int n1 = int.Parse(Console.ReadLine());
+            int n2 = int.Parse(Console.ReadLine());
+            int n3 = int.Parse(Console.ReadLine());
+
+            double resultado = Maior(n1, n2, n3);
+
+            Console.WriteLine("Maior = " + resultado);
+        }
+
+        static int Maior(int a, int b, int c)
+        {
+            int m;
+            if (a > b && a > c)
+            {
+                m = a;
+            }
+            else if  (b > c) 
+            {
+                m = b;
+            }
+            else
+            {
+                m = c;
+            }
+            return m;
         }
 
     }
