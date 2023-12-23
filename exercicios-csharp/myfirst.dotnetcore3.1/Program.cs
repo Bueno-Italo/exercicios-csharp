@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace myfirst.dotnetcore3._1
 {
@@ -6,7 +7,7 @@ namespace myfirst.dotnetcore3._1
     {
         static void Main(string[] args)
         {
-            EstruturaCondicionalIf();
+            Objetos();
             Console.ReadKey();
         }
 
@@ -182,7 +183,7 @@ namespace myfirst.dotnetcore3._1
             string nome = Console.ReadLine();
 
             Console.WriteLine("Quantos quartos tem na sua cada? ");
-            int preco1 = int.Parse( Console.ReadLine());
+            int preco1 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Entre com o preço de um produto: ");
             double preco = double.Parse(Console.ReadLine());
@@ -205,7 +206,7 @@ namespace myfirst.dotnetcore3._1
             Console.WriteLine("Qual a hora atual?");
             int hora = int.Parse(Console.ReadLine());
 
-            if (hora <12)
+            if (hora < 12)
             {
                 Console.WriteLine("Bom Dia!");
             }
@@ -235,7 +236,7 @@ namespace myfirst.dotnetcore3._1
             {
                 m = a;
             }
-            else if  (b > c) 
+            else if (b > c)
             {
                 m = b;
             }
@@ -246,5 +247,54 @@ namespace myfirst.dotnetcore3._1
             return m;
         }
 
+        public static void For()
+        {
+            Console.Write("Quantos números inteiros voçê vai digitar? ");
+            int N = int.Parse(Console.ReadLine());
+
+            int soma = 0;
+
+            for (int i = 1; i <= N; i++)
+            {
+                Console.Write("Valor #{0}: ", i);
+                int valor = int.Parse(Console.ReadLine());
+                soma = soma + valor;
+            }
+
+            Console.WriteLine("Soma = " + soma);
+        }
+
+        public static void Objetos()
+        {
+            double xA,xB, xC, yA,  yB, yC;
+
+            Console.WriteLine("Entre com as medidas do triangulo X: ");
+            xA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            xB = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            xC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine("Entre com as medidas do triangulo Y: ");
+            yA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            yB = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            yC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double p = (xA + xB + xC) / 2.0;
+            double areaX = Math.Sqrt(p * (p - xA) * (p - xB) * (p - xC));
+
+            p = (yA + yB + yC) / 2.0;
+            double areaY = Math.Sqrt(p * (p - yA) * (p - yB) * (p - yC));
+
+            Console.WriteLine(" Área de x = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
+            Console.WriteLine(" Área de y = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
+
+            if (areaX > areaY)
+            {
+                Console.WriteLine("Maior área: X");
+            }
+            else
+            {
+                Console.WriteLine("Maior área: Y");
+            }
+        }
     }
 }
