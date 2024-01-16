@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myfirst", "myfirst\myfirst.csproj", "{69CEC5E5-EA52-4D9D-8444-6EB9ACEB9438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myfirst", "myfirst\myfirst.csproj", "{69CEC5E5-EA52-4D9D-8444-6EB9ACEB9438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myfirst.dotnetcore3.1", "myfirst.dotnetcore3.1\myfirst.dotnetcore3.1.csproj", "{0210C08A-B6B4-4D0A-A316-BEFFBC5356D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myfirst.dotnetcore3.1", "myfirst.dotnetcore3.1\myfirst.dotnetcore3.1.csproj", "{0210C08A-B6B4-4D0A-A316-BEFFBC5356D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D7B654E-60FB-4F0E-8FC7-D1006B65F7A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

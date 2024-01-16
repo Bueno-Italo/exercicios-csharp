@@ -266,23 +266,26 @@ namespace myfirst.dotnetcore3._1
 
         public static void Objetos()
         {
-            double xA,xB, xC, yA,  yB, yC;
+            Triangulo x, y;
+            x = new Triangulo();
+            y = new Triangulo();
+
 
             Console.WriteLine("Entre com as medidas do triangulo X: ");
-            xA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            xB = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            xC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Entre com as medidas do triangulo Y: ");
-            yA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            yB = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            yC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double p = (xA + xB + xC) / 2.0;
-            double areaX = Math.Sqrt(p * (p - xA) * (p - xB) * (p - xC));
 
-            p = (yA + yB + yC) / 2.0;
-            double areaY = Math.Sqrt(p * (p - yA) * (p - yB) * (p - yC));
+            double areaX = x.Area();
+
+
+            double areaY = y.Area();
 
             Console.WriteLine(" Área de x = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
             Console.WriteLine(" Área de y = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
@@ -294,6 +297,29 @@ namespace myfirst.dotnetcore3._1
             else
             {
                 Console.WriteLine("Maior área: Y");
+            }
+        }
+        public static void Exercicio01()
+        {
+            Pessoa p1 = new Pessoa();
+            Pessoa p2 = new Pessoa();
+            Console.WriteLine("Dados da primeira pessoa:");
+            Console.Write("Nome: ");
+            p1.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            p1.Idade = int.Parse(Console.ReadLine());
+            Console.WriteLine("Dados da segunda pessoa:");
+            Console.Write("Nome: ");
+            p2.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            p2.Idade = int.Parse(Console.ReadLine());
+            if (p1.Idade > p2.Idade)
+            {
+                Console.WriteLine("Pessoa mais velha: " + p1.Nome);
+            }
+            else
+            {
+                Console.WriteLine("Pessoa mais velha: " + p2.Nome);
             }
         }
     }
