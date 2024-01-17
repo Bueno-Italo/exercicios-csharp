@@ -39,8 +39,6 @@ namespace VariavelBasicas // Note: actual namespace depends on the project name.
             Console.WriteLine();
             Console.WriteLine("A paciente " + z + "tem" + y + " anos e seu sexo é: " +w);
 
-
-
             Console.ReadLine();
         }
     }
