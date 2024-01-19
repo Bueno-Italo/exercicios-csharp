@@ -40,6 +40,26 @@ namespace VariavelBasicas // Note: actual namespace depends on the project name.
             Console.WriteLine("A paciente " + z + "tem" + y + " anos e seu sexo é: " +w);
 
             Console.ReadLine();
+
+            //Casting (conversão explicita de um tipo para outro)
+            int a, b;
+            double resultado;
+
+            a = 5;
+            b = 2;
+
+            resultado = (double) a / b;
+
+            Console.WriteLine(resultado);
+
+            double c;
+            int d;
+
+            c = 5.0;
+            d = (Int32)c;
+
+            Console.WriteLine(d);
+
         }
     }
 }
