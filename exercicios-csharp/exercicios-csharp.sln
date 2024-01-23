@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicios", "Exercicios\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunçõesAritmeticas", "FunçõesAritmeticas\FunçõesAritmeticas.csproj", "{EE8C076A-A0D0-424A-917E-73EADC38BEB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios2", "Exercicios2\Exercicios2.csproj", "{3767CBB0-6482-4609-A216-113D56B15988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicios2", "Exercicios2\Exercicios2.csproj", "{3767CBB0-6482-4609-A216-113D56B15988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetores", "Vetores\Vetores.csproj", "{E0855C67-788E-4108-9719-9636F73FBBC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{3767CBB0-6482-4609-A216-113D56B15988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3767CBB0-6482-4609-A216-113D56B15988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3767CBB0-6482-4609-A216-113D56B15988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0855C67-788E-4108-9719-9636F73FBBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0855C67-788E-4108-9719-9636F73FBBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0855C67-788E-4108-9719-9636F73FBBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0855C67-788E-4108-9719-9636F73FBBC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
